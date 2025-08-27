@@ -1,8 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
@@ -19,5 +21,13 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SESIC-IDE/FERRETERIABACK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SESIC-IDE/FERRETERIABACK/issues"
+  },
+  "homepage": "https://github.com/SESIC-IDE/FERRETERIABACK#readme"
 }
